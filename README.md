@@ -1,4 +1,4 @@
-# RuleBasedClassification
+# Rule Based Classification
 
 ![RuleBasedClassification](https://user-images.githubusercontent.com/82174541/203327009-46d98dda-67d2-41d0-83cb-36dc1a096aef.JPG)
 
