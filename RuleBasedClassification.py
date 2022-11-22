@@ -15,7 +15,7 @@ def load_dataset(data):
 df = load_dataset("persona")
 df.head()
 
-print(15*"#" + " TASK 1 " + 15*"#")
+############### TASK 1 ###############
 
 # Question 1
 # Summarize the data and explain the general information
@@ -165,7 +165,7 @@ df[["SOURCE","COUNTRY","PRICE"]].groupby(["COUNTRY","SOURCE"]).mean()
 
 ###############################################
 
-print(15*"#" + " TASK 2 " + 15*"#")
+############### TASK 2 ###############
 
 # What is the mean PRICE of the COUNTRY, SOURCE, SEX, AGE?
 groupFunction(df, ["COUNTRY","SOURCE", "SEX", "AGE"], "PRICE", count = False, mean = True)
@@ -176,7 +176,7 @@ df.groupby(["COUNTRY","SOURCE","SEX","AGE"]).mean()
 
 ###############################################
 
-print(15*"#" + " TASK 3 " + 15*"#")
+############### TASK 3 ###############
 
 # Use a sort method to the output in the previous question and assign to new dataframe
 
@@ -186,7 +186,7 @@ agg_df.head(10)
 
 ###############################################
 
-print(15*"#" + " TASK 4 " + 15*"#")
+############### TASK 4 ###############
 
 # Change the index names to variable names without PRICE
 
@@ -195,7 +195,7 @@ agg_df = agg_df.reset_index()
 
 ###############################################
 
-print(15*"#" + " TASK 5 " + 15*"#")
+############### TASK 5 ###############
 
 # Change the numerical AGE variable to categorical AGE variable and add the agg_df
 
@@ -205,7 +205,7 @@ agg_df[['AGE_GROUP','AGE']].groupby('AGE_GROUP').agg({"min", "max"})  # to contr
 
 ###############################################
 
-print(15*"#" + " TASK 6 " + 15*"#")
+############### TASK 6 ###############
 
 # Step 1
 # Define a level based persona with COUNTRY, SOURCE, SEX and AGE_GROUP variables
@@ -221,7 +221,7 @@ persona = groupFunction(agg_df, "customers_level_based", "PRICE", count = False,
 
 ###############################################
 
-print(15*"#" + " TASK 7 " + 15*"#")
+############### TASK 7 ###############
 
 # Question 1
 # Segment each persona by price level
@@ -238,7 +238,7 @@ persona[["SEGMENT","PRICE"]].groupby("SEGMENT").agg({'mean','min','max','std','s
 
 ###############################################
 
-print(15*"#" + " TASK 8 " + 15*"#")
+############### TASK 8 ###############
 
 # Segment the new customers.
 
