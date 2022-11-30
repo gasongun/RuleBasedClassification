@@ -2,7 +2,7 @@
 
 ![RuleBasedClassification](https://user-images.githubusercontent.com/82174541/203327009-46d98dda-67d2-41d0-83cb-36dc1a096aef.JPG)
 
-Due to the increasing competitive environment in these days, there is a possibility that companies may lose their customers every day. For this reason, it is extremely important to be able to satisfy them from the first day of their customers.
+Due to the increasing competitive environment in these days, there is a possibility that companies may lose their customers every day. For this reason, it is extremely important to be able to satisfy them from the first day of they become customers.
 In order to do this, we need to know the location of our customers. Are they leaving us? Or do they look like the potential profitable customers?
 
 In this project, we will try to understand where our customers are by applying a rule-based segmentation and try to understand which group are suitable for the new customers.
